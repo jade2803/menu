@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección de Pizzas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #000, #333); /* Degradado de colores negros */
+            color: #fff;
+        }
+
+        /* Estilos para el contenido de la página */
+        .contenido-pizzas {
+            padding: 20px;
+            border-radius: 10px; /* Añadimos bordes redondeados al contenido */
+            margin: 20px; /* Agregamos margen alrededor del contenido */
+            text-align: center; /* Centramos el contenido */
+        }
+
+        h1, p {
+            color: #fff;
+        }
+
+        /* Estilos para la disposición de las pizzas */
+        .pizza {
+            width: 45%; /* Ancho del contenedor de la pizza */
+            margin: 10px;
+            display: inline-block;
+            vertical-align: top;
+            box-sizing: border-box;
+        }
+
+        .pizza img {
+            width: 100%;
+            height: 350px; /* Altura fija para todas las imágenes */
+            object-fit: cover; /* Ajustamos la imagen para que cubra completamente el contenedor */
+            border-radius: 10px; /* Bordes redondeados para las imágenes */
+        }
+
+        .pizza-descripcion {
+            padding: 10px;
+        }
+
+        .pizza-precio {
+            color: #ffcc00; /* Color amarillo para el precio */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenido-pizzas">
+        <h1>¡Nuestras Pizzas!</h1>
+        <p>Aquí encontrarás nuestras deliciosas opciones de pizzas.</p>
+
+        <!-- Pizza 1 -->
+        <div class="pizza">
+            <img src="https://imag.bonviveur.com/pizza-de-carne-picada.jpg" alt="Pizza Carnes">
+            <div class="pizza-descripcion">
+                <p>Pizza Carnes</p>
+                <p>Deliciosa pizza con una variedad de carnes y quesos.</p>
+                <p class="pizza-precio">$14.99</p>
+            </div>
+        </div>
+
+        <!-- Pizza 2 -->
+        <div class="pizza">
+            <img src="https://cdn.colombia.com/sdi/2023/02/09/celebre-el-dia-de-la-pizza-con-una-receta-deliciosa-y-vegetariana-1116994.jpg" alt="Pizza Vegetariana">
+            <div class="pizza-descripcion">
+                <p>Pizza Vegetariana</p>
+                <p>Una opción saludable y deliciosa con ingredientes vegetarianos frescos.</p>
+                <p class="pizza-precio">$18.99</p>
+            </div>
+        </div>
+
+        <!-- Pizza 3 -->
+        <div class="pizza">
+            <img src="https://hacermasapizza.com/img/pizza-de-pollo-181.jpg" alt="Pizza Pollo y Miel">
+            <div class="pizza-descripcion">
+                <p>Pizza Pollo y Miel</p>
+                <p>Una combinación única de pollo, miel y otros sabores irresistibles.</p>
+                <p class="pizza-precio">$20.00</p>
+            </div>
+        </div>
+
+        <!-- Puedes agregar más pizzas siguiendo el mismo formato -->
+
+    </div>
+</body>
+
+</html>

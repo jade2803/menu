@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección de Bebidas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #000, #333); /* Degradado de colores negros */
+            color: #fff;
+        }
+
+        /* Estilos para el contenido de la página */
+        .contenido-bebidas {
+            padding: 20px;
+            border-radius: 10px; /* Añadimos bordes redondeados al contenido */
+            margin: 20px; /* Agregamos margen alrededor del contenido */
+            text-align: center; /* Centramos el contenido */
+        }
+
+        h1, p {
+            color: #fff;
+        }
+
+        /* Estilos para la disposición de las bebidas */
+        .bebida {
+            width: 45%; /* Ancho del contenedor de la bebida */
+            margin: 10px;
+            display: inline-block;
+            vertical-align: top;
+            box-sizing: border-box;
+        }
+
+        .bebida img {
+            width: 100%;
+            height: 350px; /* Altura fija para todas las imágenes */
+            object-fit: cover; /* Ajustamos la imagen para que cubra completamente el contenedor */
+            border-radius: 10px; /* Bordes redondeados para las imágenes */
+        }
+
+        .bebida-descripcion {
+            padding: 10px;
+        }
+
+        .bebida-precio {
+            color: #ffcc00; /* Color amarillo para el precio */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenido-bebidas">
+        <h1>¡Nuestras Bebidas!</h1>
+        <p>Aquí encontrarás nuestras refrescantes opciones de bebidas.</p>
+
+        <!-- Bebida 1 -->
+        <div class="bebida">
+            <img src="https://www.coca-cola.com/content/dam/onexp/tr/tr/brands/fusetea/tr_fusetea_desktopbanner_1440x810.jpg" alt="Fuze Té Personal">
+            <div class="bebida-descripcion">
+                <p>Fuze Té Personal</p>
+                <p>Refrescante té personal de la marca Fuze.</p>
+                <p class="bebida-precio">$0.80</p>
+            </div>
+        </div>
+
+        <!-- Bebida 2 -->
+        <div class="bebida">
+            <img src="https://hurom.com.mx/wp-content/uploads/2021/01/BlogJugosHurom.jpg" alt="Jugos Naturales">
+            <div class="bebida-descripcion">
+                <p>Jugos Naturales</p>
+                <p>Variedad de jugos naturales, preparados con frutas frescas.</p>
+                <p class="bebida-precio">$1.20</p>
+            </div>
+        </div>
+
+        <!-- Bebida 3 -->
+        <div class="bebida">
+            <img src="https://static.wixstatic.com/media/abdae7_f3df17c1d6e14cb5b213ede22c93fade~mv2.jpg/v1/fill/w_480,h_268,al_c,lg_1,q_80,enc_auto/abdae7_f3df17c1d6e14cb5b213ede22c93fade~mv2.jpg" alt="Gaseosas Personales">
+            <div class="bebida-descripcion">
+                <p>Gaseosas Personales</p>
+                <p>Gaseosas en presentación individual.</p>
+                <p class="bebida-precio">$1.00</p>
+            </div>
+        </div>
+
+        <!-- Bebida 4 -->
+        <div class="bebida">
+            <img src="https://suplacita.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjU0MTgsInB1ciI6ImJsb2JfaWQifX0=--1d3c4375370b3b353f1603a0861a51fcd4fe8034/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGUiLCJyZXNpemVfdG9fZml0IjpbODAwLDgwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--3976ef147e140f7a067a5d2904330b624d37f7ba/POSTOBON%201.5.jpe?locale=es" alt="Gaseosas de 1 Litro">
+            <div class="bebida-descripcion">
+                <p>Gaseosas de 1 Litro</p>
+                <p>Gaseosas en presentación de 1 litro.</p>
+                <p class="bebida-precio">$1.80</p>
+            </div>
+        </div>
+
+        <!-- Bebida 5 -->
+        <div class="bebida">
+            <img src="https://static.wixstatic.com/media/0d1710_9c1e435cdb2847f48963e554dcb940b5~mv2.png/v1/fit/w_500,h_500,q_90/file.png" alt="Gaseosas de 2 Litros">
+            <div class="bebida-descripcion">
+                <p>Gaseosas de 2 Litros</p>
+                <p>Gaseosas en presentación de 2 litros.</p>
+                <p class="bebida-precio">$2.00</p>
+            </div>
+        </div>
+
+        <!-- Puedes agregar más bebidas siguiendo el mismo formato -->
+
+    </div>
+</body>
+
+</html>

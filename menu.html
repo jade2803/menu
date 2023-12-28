@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Restaurante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #000, #333); /* Degradado de colores negros */
+        }
+
+        /* Estilos adicionales para el contenido de la página */
+        .contenido {
+            padding: 20px;
+            color: #fff;
+            border-radius: 10px; /* Añadimos bordes redondeados al contenido */
+            margin: 20px; /* Agregamos margen alrededor del contenido */
+            text-align: center; /* Centramos el contenido */
+        }
+
+        h1, p {
+            color: #fff;
+        }
+
+        /* Estilos para los botones y enlaces */
+        .boton-seccion {
+            background-color: #808080; /* Gris */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+
+        .boton-seccion:hover {
+            background-color: #555; /* Cambio de color al pasar el mouse */
+        }
+        /* Estilos para las imágenes circulares y textos descriptivos */
+        .item-menu {
+            margin: 20px 0; /* Añadimos espacio vertical entre cada item del menú */
+        }
+
+        .imagen-circular {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Hacemos que la imagen tenga forma de círculo */
+            overflow: hidden;
+            display: inline-block; /* Mostramos las imágenes en línea */
+        }
+
+        .imagen-circular img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ajustamos la imagen para que cubra completamente el círculo */
+        }
+
+        .descripcion {
+            color: #fff;
+            margin-top: 10px; /* Añadimos un pequeño espacio entre la imagen y el texto */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Contenido de la página -->
+    <div class="contenido">
+        <h1>Bienvenido a nuestro restaurante</h1>
+        <p>Explora nuestro delicioso menú:</p>
+        <div class="item-menu">
+            <div class="imagen-circular">
+                <img src="https://miro.medium.com/v2/resize:fit:1400/0*RGjdmMRKnwuJgqeJ.jpeg" 
+                alt="Hamburguesas">
+            </div>
+        </div>
+
+        <a class="boton-seccion" href="hamburguesas.html">
+            Sección de Hamburguesas
+        </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="item-menu">
+            <div class="imagen-circular">
+                <img src="https://special.vietnamplus.vn/wp-content/uploads/2021/03/americancon-1606829433-50.jpg"
+                 alt="Hot Dogs">
+            </div>
+        </div>
+
+        <a class="boton-seccion" href="hotdogs.html">
+            Sección de Hot Dogs
+        </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="item-menu">
+            <div class="imagen-circular">
+                <img src="https://www.lavanguardia.com/files/article_main_microformat/files/fp/uploads/2021/03/30/6063031b90a87.r_d.1083-871-0.jpeg"
+                 alt="Pizzas">
+            </div>
+        </div>
+
+        <a class="boton-seccion" href="pizzas.html">
+            Sección de Pizzas
+        </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="item-menu">
+            <div class="imagen-circular">
+                <img src="https://www.festamachine.com/wp-content/uploads/2022/04/carbonated-beverage.jpg" 
+                alt="Bebidas">
+            </div>
+        </div>
+
+        <a class="boton-seccion" href="bebidas.html">
+            Sección de Bebidas
+        </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="item-menu">
+            <div class="imagen-circular">
+                <img src="https://mandolina.co/wp-content/uploads/2023/06/postre-de-maracuya.png"
+                 alt="Postres">
+            </div>
+        </div>
+
+        <a class="boton-seccion" href="postres.html">
+            Sección de Postres
+        </a>
+
+    </div>
+</body>
+</html>

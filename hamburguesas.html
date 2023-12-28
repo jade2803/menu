@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección de Hamburguesas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #000, #333); /* Degradado de colores negros */
+            color: #fff;
+        }
+
+        /* Estilos para el contenido de la página */
+        .contenido-hamburguesas {
+            padding: 20px;
+            border-radius: 10px; /* Añadimos bordes redondeados al contenido */
+            margin: 20px; /* Agregamos margen alrededor del contenido */
+            text-align: center; /* Centramos el contenido */
+        }
+
+        h2, p {
+            color: #fff;
+        }
+
+        /* Estilos para la disposición de las hamburguesas */
+        .hamburguesa {
+            width: 45%; /* Ancho del contenedor de la hamburguesa */
+            margin: 10px;
+            display: inline-block;
+            vertical-align: top;
+            box-sizing: border-box;
+        }
+
+        .hamburguesa img {
+            width: 100%;
+            height: 350px; /* Altura fija para todas las imágenes */
+            object-fit: cover; /* Ajustamos la imagen para que cubra completamente el contenedor */
+            border-radius: 10px; /* Bordes redondeados para las imágenes */
+        }
+
+        .hamburguesa-descripcion {
+            padding: 10px;
+        }
+
+        .hamburguesa-precio {
+            color: #ffcc00; /* Color amarillo para el precio */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenido-hamburguesas">
+        <h1>¡Nuestras Hamburguesas!</h1>
+        <p>Aquí encontrarás nuestras deliciosas opciones de hamburguesas.</p>
+
+        <!-- Hamburguesa 1 -->
+        <div class="hamburguesa">
+            <img src="https://assets.unileversolutions.com/recipes-v2/218401.jpg" 
+            alt="Hamburguesa Clásica">
+            <div class="hamburguesa-descripcion">
+                <p>Hamburguesa Clásica</p>
+                <p>Deliciosa hamburguesa con carne, lechuga, tomate y queso.</p>
+                <p class="hamburguesa-precio">$5.99</p>
+            </div>
+        </div>
+
+        <!-- Hamburguesa 2 -->
+        <div class="hamburguesa">
+            <img src="https://media.istockphoto.com/id/1203580318/es/foto/hamburguesa-vegana-de-tiras-de-pollo-a-base-de-plantas-sin-carne-en-un-bollo-de-trigo-integral.jpg?s=612x612&w=0&k=20&c=ex-qo7I9axfM1thP9isl9nEeRhU4gD1rHoZ_QTBHCZw=" 
+            alt="Hamburguesa Pollo">
+            <div class="hamburguesa-descripcion">
+                <p>Hamburguesa de Pollo</p>
+                <p>Jugosa hamburguesa de pollo con aderezos frescos.</p>
+                <p class="hamburguesa-precio">$6.99</p>
+            </div>
+        </div>
+
+        <!-- Hamburguesa 3 -->
+        <div class="hamburguesa">
+            <img src="https://storage.googleapis.com/avena-recipes/agtzfmF2ZW5hLWJvdHIZCxIMSW50ZXJjb21Vc2VyGICAgMW2rJ8LDA/24-04-2020/1587767770012.jpeg" alt="Hamburguesa Lentejas">
+            <div class="hamburguesa-descripcion">
+                <p>Hamburguesa de Lentejas</p>
+                <p>Hamburguesa vegetariana con lentejas, verduras y condimentos.</p>
+                <p class="hamburguesa-precio">$7.99</p>
+            </div>
+        </div>
+
+        <!-- Puedes agregar más hamburguesas siguiendo el mismo formato -->
+
+    </div>
+</body>
+
+</html>
